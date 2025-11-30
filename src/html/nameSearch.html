@@ -1,10 +1,29 @@
 <section class="nameSearch">
+    <div class="nameSearch__loader-subcontainer is-hidden">
+        <div class="loader"></div>
+    </div>
+    
     <div class="nameSearch__container container">
-        <form class="nameSearch__form">
-            <input id="nameSearch__text-input" class="nameSearch__text-input" type="text">
-            <button class="nameSearch__submit-btn" type="submit"></button>
-        </form>
-
         
+        <form class="nameSearch__form">
+            <input name="pokeName" id="nameSearch__text-input" class="nameSearch__text-input"
+                placeholder="type name of your poke" type="text">
+            <button class="nameSearch__submit-btn" type="submit">Submit</button>
+        </form>
+        <div class="nameSearch__subcontainer">
+            <h2 class="nameSearch__h2">Pokemon Card</h2>
+            <div class="nameSearch__pokemon-card">
+                <div class="nameSearch__spite-container"><img class="nameSearch__img"
+                        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/35.png"
+                        alt="poke img">
+                </div>
+                <div class="nameSearch__text-container">
+                    <p class="nameSearch__abilities"><span>abilities:</span> <span>1</span> <span>2</span> 
+                    </p>
+                    <p class="nameSearch__physical"><span>physical:</span> <span class="nameSearch__height">1</span>
+                        <span class="nameSearch__weight">2</span> </p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>

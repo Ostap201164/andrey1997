@@ -1,0 +1,61 @@
+.nameSearch__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nameSearch__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nameSearch {
+  padding-top: 70px;
+}
+
+.nameSearch__submit-btn {
+  background-color: rgb(197, 123, 136);
+  border-radius: 5px;
+}
+
+.nameSearch__pokemon-card {
+  display: flex;
+  padding: 15px;
+  border: black 5px solid;
+  background-color: #7b273c;
+  justify-content: space-between;
+}
+
+.nameSearch__abilities {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  gap: 10px;
+  font-size: 25px;
+}
+
+.nameSearch__physical {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 25px;
+}
+
+.nameSearch__img {
+  width: 250px;
+}
+
+.nameSearch__h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.nameSearch__loader-subcontainer {
+  position: fixed;
+  left: 452px;
+  bottom: 463px;
+}
