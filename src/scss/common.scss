@@ -1,12 +1,14 @@
 .container {
   width: 800px;
   margin: 0 auto;
-}
-
-body {
+  padding: 150px;
+  margin-bottom: 100px;
   background-color: #b92e4c;
 }
 
+body{
+  background-color: #df4c6c;
+}
 
 /* HTML: <div class="loader"></div> */
 .loader {

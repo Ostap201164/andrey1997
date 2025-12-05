@@ -7,7 +7,7 @@ export async function enterPocemonCard(event) {
 
   const pokeName = formData.get("pokeName");
 
-  if (pokeName == lastPoke) {
+  if (pokeName == lastPoke || pokeName == "") {
     return 0;
   } else {
     lastPoke = pokeName;
