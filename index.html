@@ -5,26 +5,194 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <title>Vite App</title>
-  <script type="module" crossorigin src="/andrey1997/assets/main-ZNEpFQpd.js"></script>
-  <link rel="stylesheet" crossorigin href="/andrey1997/assets/main-BsRG5Yuo.css">
+  <script type="module" crossorigin src="/andrey1997/assets/main-HKKnqf5u.js"></script>
+  <link rel="stylesheet" crossorigin href="/andrey1997/assets/main-Br6G8ieZ.css">
 </head>
 
 <body>
   <main>
     <section class="nameSearch">
+    <div class="nameSearch__loader-subcontainer is-hidden">
+        <div class="loader"></div>
+    </div>
+    
     <div class="nameSearch__container container">
-        <form class="nameSearch__form">
-            <input id="nameSearch__text-input" class="nameSearch__text-input" type="text">
-            <button class="nameSearch__submit-btn" type="submit"></button>
-        </form>
-
         
+        <form class="nameSearch__form">
+            <input name="pokeName" id="nameSearch__text-input" class="nameSearch__text-input"
+                placeholder="type name of your poke" type="text">
+            <button class="nameSearch__submit-btn" type="submit">Submit</button>
+        </form>
+        <div class="nameSearch__subcontainer">
+            <h2 class="nameSearch__h2">Pokemon Card</h2>
+            <div class="nameSearch__pokemon-card">
+                <div class="nameSearch__spite-container"><img class="nameSearch__img"
+                        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/6.png"
+                        alt="poke img">
+                </div>
+                <div class="nameSearch__text-container">
+                    <p class="nameSearch__abilities"><span>abilities:</span> <span>1</span> <span>2</span> 
+                    </p>
+                    <p class="nameSearch__physical"><span>physical:</span> <span class="nameSearch__height">1</span>
+                        <span class="nameSearch__weight">2</span> </p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
-    
+    <section class="abilitySearch">
+    <div class="container">
+        <form class="abilitySearch__form">
+            <input name="pokeAbility" id="abilitySearch__text-input" class="abilitySearch__text-input"
+                placeholder="type ability of your poke" type="text">
+            <button class="abilitySearch__submit-btn" type="submit">Submit</button>
+        </form>
+
+        <div class="swiper abilitySearch__swiper-container">
+
+            <h2 class="abilitySearch__h2">Ability:</h2>
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../gfd.png" alt="">
+                </div>
+            </div>
+
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <form class="abilitySearch__filter-form">
+            <input type="text" name="name" placeholder="type name of poke">
+            <button type="submit" class="abilitySearch__submit-btn_filter">Submit</button>
+        </form>
+        <div class="abilitySearch__subcontainer">
+            <p class="abilitySearch__poke-name">Name:</p>
+            <div class="abilitySearch__place-for-photo"></div>
+        </div>
+
+
+    </div>
+</section>
 
   </main>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 
 </html>
